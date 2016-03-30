@@ -43,6 +43,18 @@
       });
     });
     </script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript">
+    $(function () {
+      $("#move-date-mobile").datepicker({ 
+        autoclose: true, 
+        clearBtn: true,
+        keyboardNavigation: false,
+        autoclose: true,
+        orientation: "bottom auto"
+      });
+    });
+    </script>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -112,7 +124,7 @@
                <option>3 bedroom House.</option>
                <option>3+ bedroom House.</option>
              </select>
-             <input type="text" class="form-control" placeholder="Move Date" id="move-date">
+             <input type="text" class="form-control" placeholder="Move Date" id="move-date-mobile">
              <input type="text" class="form-control" placeholder="Move time" id="move-time">
              <input type="text" class="form-control" placeholder="Name" id="name">
              <input type="email" class="form-control" placeholder="Email" id="email">
