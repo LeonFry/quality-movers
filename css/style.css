@@ -22,13 +22,16 @@ p {
 	text-align: center;
 	border: none;
 }
+.spacer-30 {
+	width: 100%;
+	height: 30px;
+}
 .cta-button {
 	background-color: #3fe05d;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	padding-left: 20px;
-	padding-right: 20px;
+
 }
 .logo-box {
 	background-image: url('../images/quality-movers_logo.png');
@@ -61,6 +64,40 @@ p {
 	border-radius: 0;
 	color: #ffffff;
 }
+.mobile-quote {
+	background-color: #197fd3;
+	text-align: center;
+	padding: 10px;
+}
+.mobile-quote h2 {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+.mobile-quote input {
+	margin: 10px 0;
+}
+.mobile-splash {
+	background-image: url("../images/qm-splash.jpg");
+	background-size: cover;
+}
+.mobile-splash .container-fluid {
+	padding: 0;
+}
+.mobile-splash h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #ffffff;
+	text-shadow: 1px 1px #000000;
+	padding: 15px;
+	margin-top: 100px;
+	margin-bottom: 0;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: -moz- linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: -webkit- linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: -o- linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+}
 
 .jumbo-splash {
 	background-image: url("../images/qm-splash.jpg");
@@ -73,6 +110,23 @@ p {
 	font-weight: 700;
 	color: #ffffff;
 	text-shadow: 1px 1px #000000;
+	overflow: hidden;
+}
+/**.splash-background {
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: -moz- linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: -webkit- linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: -o- linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+}**/
+.splash-vignette {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	bottom: 300px;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: -moz- linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: -webkit- linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: -o- linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
 }
 .quote-box {
 	background-color: #197fd3;
@@ -110,15 +164,13 @@ section h2 {
 .contact-section .cta-button {
 	width: 30%;
 }
-.review-section {}
-.review-section a, p {
-	display: inline;
-}
 .user-img {
-	width: 67px;
-	height: 67px;
+	width: 60px;
+	height: 60px;
 	border-radius: 6px;
 	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
 }
 .user-img-1 {
 	background-image: url("../images/users/user-1.jpg");
@@ -127,6 +179,18 @@ section h2 {
 	background-image: url("../images/users/user-2.jpg");
 }
 .user-rating {
+	display: inline-block;
+}
+.user-rating i {
+	font-size: 25px;
+}
+.rating-star {
+	background-color: #197fd3;
+	border-radius: 4px;
+	color: #ffffff;
+	padding: 2px 3px;
+}
+.read-more {
 	display: inline-block;
 }
 .review-date {
@@ -146,6 +210,7 @@ section h2 {
 	background-image: url('../images/quality-movers_logo-white.png');
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center;
 	height: 111px;
 	margin-top: 10px;
 }
@@ -156,6 +221,10 @@ section h2 {
 	list-style: none;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
+}
+.foot-address-mobile ul {
+	text-align: center;
+	padding: 0;
 }
 .foot-social {
 	position: relative;
