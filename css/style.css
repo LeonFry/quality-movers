@@ -189,6 +189,7 @@ section h2 {
 .review-date {
 	color: #a0a0a0;
 	display: inline-block;
+	margin-bottom: 20px;
 }
 .logo-box-footer {
 	background-image: url('../images/quality-movers_logo-white.png');
